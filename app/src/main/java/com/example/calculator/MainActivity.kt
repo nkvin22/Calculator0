@@ -50,9 +50,9 @@ class MainActivity : AppCompatActivity(){
 
             if(resultTextView.text!=""){
                 operand = resultTextView.text.toString().toDouble()
-                operation = clickedView.text.toString()
                 resultTextView.text = ""
             }
+            operation = clickedView.text.toString()
 
         }
 
